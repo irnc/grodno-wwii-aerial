@@ -4,7 +4,18 @@ html, body {
     margin: 0;
 }
 
-#map {
-    z-index: 0;
+.side-by-side-maps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 100%;
+}
+
+.side-by-side-maps .leaflet-container {
+    z-index: 0;
+
+    /* https://stackoverflow.com/questions/29546550/flexbox-4-items-per-row */
+    height: 50%;
+    width: 25%;
+    box-sizing: border-box;
 }

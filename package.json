@@ -19,6 +19,8 @@
     "css-loader": "^5.2.6",
     "file-loader": "^6.2.0",
     "leaflet": "^1.7.1",
+    "leaflet-center-cross": "^0.0.8",
+    "leaflet.sync": "^0.2.4",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1"
   },
