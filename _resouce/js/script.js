@@ -40,3 +40,5 @@ L.control.scale({
 const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 
 letters.forEach(x => letters.forEach(y => x !== y && maps[x].sync(maps[y])));
+
+L.hash(mapA);
